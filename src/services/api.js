@@ -17,6 +17,7 @@ export const createCategoria = (payload) => api.post('/categorias', payload).the
 export const updateCategoria = (id, payload) => api.put(`/categorias/${id}`, payload).then(r => r.data)
 export const deleteCategoria = (id) => api.delete(`/categorias/${id}`).then(r => r.data)
 
+
 /* =========================
    PRODUTOS
    (nome, preco, categoriaId, imagens: [{url}])
