@@ -1,0 +1,8 @@
+# Dependências
+node_modules/
+.cache/
+
+# Arquivos de log de build e execução
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
