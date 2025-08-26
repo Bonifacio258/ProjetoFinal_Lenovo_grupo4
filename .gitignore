@@ -1,8 +1,5 @@
-# Dependências
-node_modules/
-.cache/
+# Ignorar a pasta de dependências do Node.js
+/node_modules
 
-# Arquivos de log de build e execução
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Ignorar arquivos de cache
+.cache
